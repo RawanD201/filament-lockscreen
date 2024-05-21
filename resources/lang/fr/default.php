@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'heading' => 'Verouillé',
-    'user_menu_title' => 'Vérouiller',
+    'heading' => 'Verrouillé',
+    'user_menu_title' => 'Verrouiller',
     'fields' => [
         'password' => 'Mot de passe',
     ],
