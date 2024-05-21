@@ -39,7 +39,7 @@ class Lockscreen implements Plugin
 
         $panel->userMenuItems([
             'lockscreen' => MenuItem::make()
-                ->label(__('filament-lockscreen::default.user_menu_title'))
+                ->label(fn () => __('filament-lockscreen::default.user_menu_title'))
                 ->url(route("lockscreen.{$panel->getId()}.page"))
                 ->icon(config('filament-lockscreen.icon')),
         ]);
