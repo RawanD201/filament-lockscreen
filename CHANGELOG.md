@@ -2,6 +2,14 @@
 
 All notable changes to `filament-lockscreen` will be documented in this file.
 
+## v2.0.4 - 2024-05-22
+
+### What's Changed
+
+* fix: Fix issue where the label is not translated by @tgeorgel in https://github.com/MarJose123/filament-lockscreen/pull/52
+
+**Full Changelog**: https://github.com/MarJose123/filament-lockscreen/compare/v2.0.3...v2.0.4
+
 ## v2.0.3 - 2024-01-29
 
 ### What's Changed
